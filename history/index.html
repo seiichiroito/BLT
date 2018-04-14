@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../common/CSS/normalize.css">
+    <link rel="stylesheet" href="../common/CSS/style.css">
+    <link rel="stylesheet" href="../common/CSS/historyStyle.css">
+    <title>これまでの軌跡 | B.L.T.</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <!-- <script src="common/js/jquary.ja"></script> -->
+    <script>
+   $(document).ready(function(){
+     $('.slider').bxSlider({
+       auto: true,
+       speed: 1000,
+       pause: 4000,
+     });
+   });
+ </script>
+  </head>
+  <body>
+    <div id="page">
+      <header id="pageHead">
+        <a class="logo" href="../index.html">
+          <img class="badminton" src="../images/img2.png" width="80">
+          <h1>B.L.T.</h1>
+          <img class="table-tennis" src="../images/img1.png" width="80">
+        </a>
+
+        <nav class="globalNavi">
+        <ul>
+          <li><a href="../index.html">ホーム</a></li>
+          <li class="current"><a href="./index.html">これまでの軌跡</a></li>
+          <li><a href="../event/index.html">イベント情報</a></li>
+          <li><a href="../contact/index.html">おといあわせ</a></li>
+        </ul>
+      </nav>
+      </header>
+      <p id="topicPath"><a href="../index.html">ホーム</a> &gt; これまでの軌跡</p>
+      <div id="pageBody">
+        <div id="pageBodyMain">
+          <div class="title">
+            <h1>写真館</h1>
+            <p>これまでの活動を年代ごとにまとめてあります。</p>
+          </div>
+          <article class="articleList">
+            <a href="2017.html">
+              <div class="articleListText">
+                <h1>2017年度</h1>
+                <p>サー長　石原<br>副サー長　森永</p>
+                </div>
+                  <div class="articleListImage">
+                    <img src="images/IMG_2726.JPG" width="300" height="163">
+                  </div>
+              </a>
+          </article>
+        </div>
+        <div id="pageBodySub">
+          <div class="schedule">
+            <h3>4月の活動日程</h3>
+            <p>8日　北山中　<img src="../images/img1.png" width="20px"></p>
+            <p>15日　駒方中　<img src="../images/img2.png" width="20px"></p>
+            <p>23日　東星中　<img src="../images/img2.png" width="20px"></p>
+            <p>30日　北山中　<img src="../images/img1.png" width="20px"></p>
+          </div>
+          <div class="schedule">
+            <h3>来月の活動日程</h3>
+            <p>comming soon</p>
+          </div>
+
+        </div>
+      </div>
+
+      <footer id="pageFoot">
+        <p id="copyright"><small>copyright© 2018 B.L.T. Homepage</small></p>
+      </footer>
+    </div>
+  </body>

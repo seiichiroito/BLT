@@ -1,0 +1,58 @@
+#pageBodyMain .calender{
+  width: 180px;
+  background-color: rgb(170, 238, 116);
+  float: left;
+  display: block;
+  height: 1500px;
+}
+
+#pageBodyMain .calender h3{
+  font-size: 30px;
+  padding-left: 10px;
+}
+#pageBodyMain .calender p{
+  font-size: 20px;
+  padding-left: 30px;
+}
+
+#pageBody .event .eventDetail{
+  padding-bottom: 20px;
+}
+
+#pageBodyMain .event .eventDetail{
+  width: 520px;
+  float: right;
+  margin-top: 30px;
+}
+
+#pageBodyMain .event .eventDetail h3{
+  border-bottom: 1px solid #eeeeee;
+  font-size: 25px;
+  margin: 0 0 20px;
+  line-height: 50px;
+
+}
+
+#pageBodyMain .event .eventDetail img{
+  float: left;
+  border-radius: 20px;
+}
+
+#pageBodyMain .event .eventDetail p{
+  padding: 5px;
+}
+
+#pageBodyMain .event .first{
+  background-color: rgb(242, 188, 224);
+}
+#pageBodyMain .event .second{
+  margin-top: 150px;
+  background-color: rgb(168, 234, 255);
+}
+#pageBodyMain .event .third{
+  margin-top: 100px;
+  background-color: rgb(221, 254, 195);
+}
+#pageBodyMain .event .forth{
+  background-color: rgb(213, 210, 212);
+}

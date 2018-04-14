@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../../common/CSS/normalize.css">
+    <link rel="stylesheet" href="../../common/CSS/style.css">
+    <!-- <link rel="stylesheet" href="../../common/CSS/historyStyle.css"> -->
+    <title>これまでの軌跡 | B.L.T.</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <!-- <script src="common/js/jquary.ja"></script> -->
+    <script>
+   $(document).ready(function(){
+     $('.slider').bxSlider({
+       auto: true,
+       speed: 1000,
+       pause: 4000,
+     });
+   });
+ </script>
+  </head>
+  <body>
+    <div id="page">
+      <header id="pageHead">
+        <a class="logo" href="../../index.html">
+          <img class="badminton" src="../../images/img2.png" width="80">
+          <h1>B.L.T.</h1>
+          <img class="table-tennis" src="../../images/img1.png" width="80">
+        </a>
+
+        <nav class="globalNavi">
+        <ul>
+          <li><a href="../index.html">ホーム</a></li>
+          <li class="current"><a href="./history/index.html">これまでの軌跡</a></li>
+          <li><a href="../index.html">イベント情報</a></li>
+          <li><a href="../contact/index.html">おといあわせ</a></li>
+        </ul>
+      </nav>
+      </header>
+      <p id="topicPath"><a href="../../index.html">ホーム</a> &gt; <a href="../index.html">これまでの軌跡</a> &gt; <a href="../2017.html">2017年</a> &gt; 通常活動</p>
+      <div id="pageBody">
+        <div id="pageBodyMain">
+          <div class="title">
+            <h1>通常活動</h1>
+          </div>
+        </div>
+        <img src="images-normal/IMG_2732.JPG" width="320px;">
+        <img src="images-normal/IMG_2733.JPG" width="320px;">
+        <img src="images-normal/IMG_2734.JPG" width="320px;">
+        <img src="images-normal/IMG_2735.JPG" width="320px;">
+        <img src="images-normal/IMG_2736.JPG" width="320px;">
+        <img src="images-normal/IMG_2737.JPG" width="320px;">
+      </div>
+
+      <footer id="pageFoot">
+        <p id="copyright"><small>copyright© 2018 B.L.T. Homepage</small></p>
+      </footer>
+    </div>
+  </body>
